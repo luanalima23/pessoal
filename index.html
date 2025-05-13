@@ -3,6 +3,55 @@
   <head>
     <title>Pagina Pessoal de Luana</title>
   </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+    body{
+      font-family:Arial, Helvetica, sans-serif;
+      backgrond-color: #f4f4f4;
+      color: #333
+      line-height  1.6;
+      padding: 20px
+    }
+    header{
+      background-color: #333;
+      color:#fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    header h1{
+      margin-bottom: 10px;
+    }
+    nav ul{
+      list-style: none;
+    }
+    nav ul li{
+      display: inline;
+      margin: 0 10px
+    }
+    nav ul li a{
+      color:#fff;
+      text-decoration: none;
+    }
+    section{
+      margin: 20px 0;
+    }
+    section#sobre,
+    section#projetos,
+    section#contato {
+          background-color:#f3e9e9;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0 0 10px rgb(0, 0, 0.1);
+    }
+    foorter{
+      text-aling: center;
+      magin-top: 20px
+    }
+  </style>
 <body>
     <header>
         <h1>Luana Flavia Alessi de Lima</h1>
@@ -11,19 +60,31 @@
                 <li><a href="#sobre">sobre mim</a></li>
                 <li><a href="#projetos">projetos</a></li>
                 <li><a href="#contato">contato</a></li>
-
-
             </ul>
         </nav>
     </header>
     <section id="sobre">
-      <h2> sobre mim</h2>
+      <h2> Sobre mim</h2>
       <p> sou luana flavia alessi de lima mas pode me chamar de lu,
         tenho 13 anos vou fazer 14 anos dia 16 de setembro</p>
     </section>
     <section id="projetos">
-      <h2> "projetos"</h2>
-      <ul></ul>
+      <h2> Projetos</h2>
+      <ul>
+        <li>Projeto 1:<a href="#">Descriçao do Projeto 1</a></li>
+        <li>Projeto 2:<a href="#">Descriçao do Projeto 2</a></li>
+        <li>Projeto 3:<a href="#">Descriçao do Projeto 3</a></li>
+        <li>Projeto 4:<a href="#">Descriçao do Projeto 4</a></li>
+        <li>Projeto 5:<a href="#">Descriçao do Projeto 5</a></li>
+      </ul>
     </section>
+    <section id="contato">
+      <h2> Contato</h2>
+      <p>entre em contato comigo via <a href="mailto:luana_fa_lima@estudante.sesisenai.org.br
+">luana_fa_lima@estudante.sesisenai.org.br</a></p>
+    </section>
+    <footer>
+      <p>&copy; @2025- Luana</p>
+    </footer>
 </body>
 </html>
