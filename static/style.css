@@ -5,7 +5,7 @@
     }
     body{
       font-family:Arial, Helvetica, sans-serif;
-      background-color: #f4f4f4;
+      background-color: #7294fb;
       color: #333
       line-height  1.6;
       padding: 20px;
@@ -38,7 +38,7 @@
     section#projetosreceitadebolodemorango,
 
     section#contato {
-          background-color:#f3e9e9;
+          background-color:#f3f9f9;
           padding: 20px;
           border-radius: 8px;
           box-shadow: 0 0 10px rgb(0, 0, 0.1);
